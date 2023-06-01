@@ -6,11 +6,12 @@
  * @func: Pointer to a function to call for each node.
  *        The value in the node is passed as a parameter to the function.
  *
- *        Description: This function traverses the binary tree using postorder traversal,
+ * Description: This function traverses the binary
+ * tree using postorder traversal,
  *        which means the left subtree is processed first, followed by
  *        the right subtree, and then the current node.
- *         
- *         Return: Nothing.
+ *
+ * Return: Nothing.
  */
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 {
